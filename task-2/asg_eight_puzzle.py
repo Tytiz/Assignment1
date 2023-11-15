@@ -1,7 +1,7 @@
 import eight_puzzle as problem
 import utils
 import informed
-
+g
 goal_node, n_visits = informed.a_star_graph_search(problem, problem.h3)
 if goal_node is not None:
     print("Solution")
